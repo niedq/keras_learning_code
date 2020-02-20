@@ -11,4 +11,5 @@ simple_vgg_train.py
 python simple_vgg_train.py --dataset animals --model output/simplevggnet.model --label-bin output/simplevggnet_lb.pickle --plot output/simplevggnet_plot.png
 
 predict.py
-python predict.py --image images/dog.jpg --model output/simplevggnet.model --label-bin output/simplevggnet_lb.pickle --width 64 --height 64 --flatten -1 
+1.python predict.py --image images/dog.jpg --model output/simplevggnet.model --label-bin output/simplevggnet_lb.pickle --width 64 --height 64
+2.python predict.py --image images/dog.jpg --model output/simp_nn.model --label-bin output/simple_nn_lb.pickle --width 32 --height 32 --flatten 1 
